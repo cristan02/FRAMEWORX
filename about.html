@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About
+        </title>
+        <link href="CSS/style.css" type="text/css"rel="stylesheet" />
+        <script defer src="js/nav.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="hidden"><img src="Images/icon.png" alt="icon" class="icon"></li>                  
+                    <li><a href="gallary.html">GALLARY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </nav>
+            <script>
+                function changenav(nav){    
+                    if(nav == 'home'){
+                        var x = document.getElementById("home");
+                        x.classList.add("active");
+                    }
+                    else if(nav == 'about'){
+                        var x = document.getElementById("about");
+                        x.classList.add("active");
+                    }
+                    else if(nav== 'gallary'){
+                        var x = document.getElementById("gallary");
+                        x.classList.add("active");
+                    }
+                    else{
+                        var x = document.getElementById("contact");
+                        x.classList.add("active");
+                    }
+                }
+            </script>
+        </header>
+        <div class="style">
+        <h1 >
+            About our work
+        </h1>
+        <hr class="test">
+        <p class="vert"> 
+            Painting is the practice of applying paint, pigment, color or
+            other medium to a solid surface (called the "matrix" or "support").
+            The medium is commonly applied to the base with a brush, but other implements, 
+            such as knives, sponges, and airbrushes, can be used.
+            <br>
+            The expression of ideas and emotions, with the creation of certain aesthetic 
+            qualities, in a two-dimensional visual language. The elements of this language—its 
+            shapes, lines, colours, tones, and textures—are used in various ways to produce 
+            sensations of volume, space, movement, and light on a flat surface.
+        </p><hr >
+        <div class="artist">
+            <p class="about">
+                <img src="Images/boy1.jpg" alt="Artist image" height="200px" align="left" class="artist_image">
+                <table>
+                <tr>
+                    <th class="vert">Name :</th>
+                    <td> Gayle Mendes <br></td>
+                </tr>
+                <tr>
+                    <th class="vert" >Statement :</th>
+                    <td><div class="statement">Many people take great comfort in the bathroom towels being the same
+                    color as the soap, toilet paper, and tiles. It means there is a connection between
+                    them, and an environment of order. Home is a place not only of comfort, but of control.  
+                    This sense of order, in whatever form it takes, acts as a shield against the unpredictability 
+                    and lurking chaos of the outside world.
+    
+                    My work is an examination of the different forms this shield takes, and the thinking 
+                    that lies behind it. I use domestic objects as the common denominators of our personal
+                    environment. Altering them is a way of questioning the attitudes, fears and unwritten 
+                    rules which have formed that environment and our behavior within it.<br></div></td>
+                </tr>
+                <tr >
+                    <th class="vert">Email id : </th>
+                    <td class="email">gayle@gmail.com<br></td>
+                </tr>
+                <tr class="link">
+                    <th class="vert"><a href="artists/Gayle Mendes.html">See work</a><br></th>
+                </tr>
+                </table>
+            </p>
+        </div>
+        <hr>
+        <div class="artist">
+            <p class="about">
+                <img src="Images/girl.jpg" alt="Artist image" height="200px" align="left" class="artist_image">
+                <table>
+                <tr>
+                    <th class="vert">Name :</th>
+                    <td> Kina Coutinho <br></td>
+                </tr>
+                <tr>
+                    <th  class="vert">Statement :</th>
+                    <td><div class="statement">Capturing the light is everything! As a plein air painter, it is always the 
+                        light that I remember most about any location. It is my inspiration.
+            
+                        Its elusive quality can transform a figure or a landscape in just a matter of seconds. 
+                        I strive to convey that sense of place by capturing its fleeting magic.<br><br><br><br><br><br>
+                    </div></td>
+                </tr>
+                <tr>
+                    <th class="vert">Email id : </th>
+                    <td class="email">kina@gmail.com<br></td>
+                </tr>
+                <tr class="link">
+                    <th class="vert"><a href="artists/Kina Coutinho.html">See work</a><br></th>
+                </tr>
+                </table>
+            </p>
+        </div>
+        <hr>
+        <div class="artist">
+            <p class="about">
+                <img src="Images/boy2.jpg" alt="Artist image" height="200px" align="left" class="artist_image">
+                <table>
+                <tr>
+                    <th class="vert">Name :</th>
+                    <td> Harry Vaz <br></td>
+                </tr>
+                <tr>
+                    <th  class="vert">Statement :</th>
+                    <td><div class="statement">I like it when a place has been around long enough that there is a kind of 
+                        tension between the way it was originally designed to look and the way it looks now, as
+                        well as a tension between the way it looks to whoever is caring for it and the way it 
+                        looks to me. Trouble is, the kinds of places I find most appealing keep getting closed 
+                        or torn down.
+            
+                        What do I want to say with my art?
+                        
+                        Celebrate the human, the marks people make on the world. Treasure the local, the 
+                        small-scale, the eccentric, the ordinary: whatever is made out of caring. Respect what 
+                        people have built for themselves. Find the beauty in some battered old porch or cluttered, 
+                        human-scale storefront, while it still stands.<br></div></td>
+                </tr>
+                <tr>
+                    <th class="vert">Email id : </th>
+                    <td class="email">harry@gmail.com<br></td>
+                </tr>
+                <tr class="link">
+                    <th class="vert"><a href="artists/Harry Vaz.html">See work</a><br></th>
+                </tr>
+                </table>
+            </p>
+            <hr>
+        </div>
+    </div>
+    <footer>         
+         &copy; 2021 FRAMEWORX
+    </footer>
+    </body>
+</html>

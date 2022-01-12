@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallary</title>
+        <link href="CSS/style.css" type="text/css"rel="stylesheet" />
+        <script defer src="js/nav.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="hidden"><img src="Images/icon.png" alt="icon" class="icon"></li>                  
+                    <li><a href="gallary.html">GALLARY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </nav>
+            <script>
+                function changenav(nav){    
+                    if(nav == 'home'){
+                        var x = document.getElementById("home");
+                        x.classList.add("active");
+                    }
+                    else if(nav == 'about'){
+                        var x = document.getElementById("about");
+                        x.classList.add("active");
+                    }
+                    else if(nav== 'gallary'){
+                        var x = document.getElementById("gallary");
+                        x.classList.add("active");
+                    }
+                    else{
+                        var x = document.getElementById("contact");
+                        x.classList.add("active");
+                    }
+                }
+            </script>
+        </header>
+        <div class="style">
+            <h1>Gallary</h1>
+            <hr>
+            <p id="gallary" >
+                Below you'll find our collection of prints from near and far.
+                Each of these sketches represent an experience and exploration of art 
+                and life and I'm humbled by your consideration to share in those moments with us. <br><br>
+                While viewing sketches on screen is wonderful in many ways, there is something
+                about holding and viewing a piece of art in person that brings the 
+                energy of that moment into your space. <br><br>
+                If you have any questions or would like to inquire about 
+                anything, please don't hesitate to contact us!<br><br>
+            </p>
+            <hr>
+            <div class="image_container">
+                <figure class="image">
+                    <a href="type/pastel.html"><img src="Images/pastel drawing/8.jpg" class="adjust border" alt="pastel image">
+                    </a><figcaption>
+                        <a href="type/pastel.html">Pastel sketching</a>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <a href="type/cartoon.html"><img src="Images/cartoon sketching/6.jpg" class="adjust border" alt="cartoon image"> 
+                    </a><figcaption>
+                        <a href="type/cartoon.html">Cartoon sketching</a>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <a href="type/industrial.html"><img src="Images/Industrial sketching/9.jpg" class="adjust border" alt="Industrial sketching image">
+                    </a><figcaption>
+                        <a href="type/industrial.html">Industrial sketching</a>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <a href="type/travel.html"><img src="Images/Travel sketching/1.jpg" class="adjust border" alt="travel image">
+                    </a><figcaption>
+                        <a href="type/travel.html">Travel sketching</a>
+                    </figcaption>
+                </figure>             
+            </div>
+        </div>
+            <!--table-- align="center" class="gallary" >
+                <h1>Gallary</h1>
+                <p id="gallary">
+                    Below you'll find our collection of prints from near and far.
+                     Each of these sketches represent an experience and exploration of art 
+                     and life and I'm humbled by your consideration to share in those moments with us. <br><br>
+                     While viewing sketches on screen is wonderful in many ways, there is something
+                      about holding and viewing a piece of art in person that brings the 
+                      energy of that moment into your space. <br><br>
+                      If you have any questions or would like to inquire about 
+                      anything, please don't hesitate to contact us!<br><br>
+                </p>
+                <tr>
+                    <td><img src="Images/pastel drawing/3.jpg" class="adjust"></td>
+                    <td><img src="Images/cartoon sketching/9.jpg "class="adjust"></td>
+                </tr>
+                <tr>
+                    <td><a href="type/pastel.html">Pastel sketching</a></td>
+                    <td><a href="type/cartoon.html">Cartoon sketching</a></td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Industrial sketching/2.jpg " class="adjust"></td>
+                    <td><img src="Images/Travel sketching/5.jpg " class="adjust"></td>
+                </tr>
+                <tr>
+                    <td><a href="type/industrial.html">Industrial sketching</a></td>
+                    <td><a href="type/travel.html">Travel sketching</a></td>            
+                </tr>
+            </!--table-->
+        <footer>
+            &copy; 2021 FRAMEWORX
+        </footer>
+    </body>
+</html>

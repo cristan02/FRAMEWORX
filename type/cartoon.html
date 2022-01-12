@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cartoon sketching </title>
+        <link href="../CSS/style.css" type="text/css"rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li class="hidden"><img src="../Images/icon.png" alt="icon" class="icon"></li>
+                    <li class="active_nav"><a href="../gallary.html">GALLARY</a></li>
+                    <li><a href="../contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="style">      
+            <center>        
+                <div class="wrapper"> 
+                    <h1 class="margin">CARTOON SKETCHING</h1>  
+                    <div class="slider">
+                        <img src="../Images/cartoon sketching/1.jpg" class="active">
+                        <img src="../Images/cartoon sketching/2.jpg">
+                        <img src="../Images/cartoon sketching/3.jpg">
+                        <img src="../Images/cartoon sketching/4.jpg">
+                        <img src="../Images/cartoon sketching/5.jpg">
+                        <img src="../Images/cartoon sketching/6.jpg">
+                        <img src="../Images/cartoon sketching/7.jpg">
+                        <img src="../Images/cartoon sketching/8.jpg">
+                        <img src="../Images/cartoon sketching/9.jpg">
+                    </div>
+                    <button id="prev" onclick="changeimage('prev')">PREV</button>
+                    <button id="slide_show" onclick="slideshow(this)" value="Start Slideshow">Start Slideshow</button>
+                    <button id="next" onclick="changeimage('next')">NEXT</button>   
+                </div>
+            </center>
+        </div>
+        <footer>
+            &copy; 2021 FRAMEWORX
+        </footer>
+    </body>
+</html>

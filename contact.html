@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link href="CSS/style.css" type="text/css"rel="stylesheet" >
+        <script defer src="js/nav.js"></script>
+    </head>
+    <body> 
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="hidden"><img src="Images/icon.png" alt="icon" class="icon"></li>                  
+                    <li><a href="gallary.html">GALLARY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="style">
+        <div class="form">
+            <h1 > Get in touch</h1>
+            <p id="vert">
+                Get in touch with our artists<br>
+                give your suggestion , ask questions <br>
+                help us learn more<br>
+            </p>
+            <form id="contact" >
+                <fieldset>
+                    <div class="hold">
+                        <label for="fname" class="modify"><b>First Name</b></label>
+                        <input type="text"  placeholder="Enter First name" name="fname" id="fname">
+                        <small ></small></br>
+                    </div>
+                    
+                    <div class="hold">
+                        <label for="lname" class="modify"><b>Last Name</b></label>
+                        <input type="text" placeholder="Enter Last name" name="lname" id="lname">
+                        <small ></small></br>
+                    </div>
+
+                    <div class="hold">
+                        <label for="email" class="modify"><b>Email-id</b></label>
+                        <input placeholder="Enter Email-ID" name="email" id="email">
+                        <small ></small></br>
+                    </div>
+
+                    <div class="hold">
+                        <label class="modify"><b>Artist</b></label>
+                        <select name="artist" id="artist">
+                            <option value="Gayle Mendes">Gayle Mendes</option>
+                            <option value="Kina Coutinho">Kina Coutinho</option>
+                            <option value="Harry Vaz">Harry Vaz</option>
+                        </select></br>
+                    </div>
+                    
+                    <div class="hold">
+                        <label for="message" class="modify"><b>Message / Suggestion</b></label>
+                        <textarea  placeholder="Write your message/suggestion..." id="message"></textarea>
+                        <small ></small><br><br>
+                    </div>
+                    <div class="hold">
+                        <button type="submit" class="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+            <script src="js/form.js"></script>
+        </div>
+        </div>
+        <footer>
+            &copy; 2021 FRAMEWORX
+        </footer>
+        </body>
+</html>
